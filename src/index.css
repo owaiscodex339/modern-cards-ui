@@ -1,0 +1,104 @@
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 90px;
+}
+
+body{
+  background-color: rgb(249, 248, 248);
+  font-family: Roboto;
+}
+.card{
+  height: 320px;
+  width: 270px;
+  background-color: white;
+  box-shadow: rgb(230, 228, 228) 0px 0px 3px 3px;
+  border-radius: 30px;
+  border: none;
+  padding: 25px;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
+img{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50px;
+  outline: solid #dadada 1px;
+  padding: 2px;
+}
+.top button{
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadada;
+  height: 25px;
+  width: 65px;
+  font-size: 12px;
+  border-radius: 7px;
+  padding-left: 12px;
+}
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  margin-top: 20px;
+  align-items: center;
+}
+p{
+  font-size: 10px;
+  margin-top: 5px;
+  color: grey;
+}
+.bottom div h3{
+  margin-top: 15px;
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+.bottom button{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border:none;
+  height: 30px;
+  width: 100px;
+}
+.bottom button:hover{
+  background-color: #dadada;
+  color: black;
+  border: solid 1px black;
+  transition: 0.5s
+}
+.bottom button:active{
+  opacity: 0.3;
+  transition: 0.1s;
+}
+.mid h3{
+  margin-top: 30px;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+.mid h3 span{
+  font-size: 10px;
+  color: gray;
+  font-weight: normal;
+}
+.mid h2{
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+.mid div{
+  display: flex;
+  gap: 5px;
+  margin-bottom: 60px;
+}
+.mid div h4{
+  background-color: #dadada;
+  border-radius: 4px;
+  padding: 5px 10px 5px 10px;
+  font-size: 12px;
+}
